@@ -14,6 +14,65 @@
   transition: all 0.3s ease-in-out;
 }
 
+.App-Moon {
+   width: 100px;
+   height: 100px;
+   /* opacity: .7; */
+   background-color: transparent;
+   
+}
+
+.App-Sun {
+  width: 100px;
+  height: 100px;
+  /* opacity: .7; */
+  background-color: transparent;
+  
+}
+
+.dark_mode {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark_mode_label{
+  background-color: transparent;
+  width:200px;
+  height:100px;
+  border-radius: 200px;
+  cursor: pointer;
+  position: relative;
+}
+
+.dark_mode_label::before{
+  position:absolute;
+  content: '';
+  background-color: black;
+  width: 30px;
+  height:30px;
+  border-radius: 50px;
+  margin: 35px;
+  transition: 0.3s;
+}
+
+
+input:checked + .dark_mode_label{
+  background-color: transparent;
+}
+
+input:checked + .dark_mode_label::before{
+  transform: translateX(100px);
+  background-color: white;
+}
+
+input{
+  display: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -27,3 +86,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
