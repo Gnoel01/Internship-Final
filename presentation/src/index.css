@@ -23,6 +23,8 @@ body,header{
    width: 48px;
    height: 45px;
    /* opacity: .7; */
+   margin-right: 10px;
+   margin-left: 20px;
    background-color: transparent;
    
 }
@@ -31,15 +33,20 @@ body,header{
   width: 50px;
   height: 50px;
   /* opacity: .7; */
+  margin-left: 10px;
+  margin-top: 5px;
   background-color: transparent;
   
 }
 
 .dark_mode {
-  width: 100%;
+  /* width: 80%; */
   height: 100%;
   background-color: transparent;
-  display: flex;
+  border: solid 2px grey;
+  border-radius: 30px;
+  /* display: flex; */
+  margin-right: 15px;
   align-items: center;
   justify-content: center;
 }
@@ -60,7 +67,8 @@ body,header{
   width: 15px;
   height: 15px;
   border-radius: 50px;
-  margin: 18px;
+  margin-top: 22.5px;
+  margin-left: 27.5px;
   transition: 0.3s;
 }
 
@@ -70,7 +78,7 @@ input:checked + .dark_mode_label{
 }
 
 input:checked + .dark_mode_label::before{
-  transform: translateX(45px);
+  transform: translateX(65px);
   background-color: white;
 }
 
