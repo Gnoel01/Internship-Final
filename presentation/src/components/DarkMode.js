@@ -5,11 +5,11 @@ import "./DarkMode.css";
 
 export default function DarkMode () {
     const setDarkMode = () => {
-        document.querySelector("body").setAttribute('data-theme', 'dark')
+        document.body.setAttribute('data-theme', 'dark')
         localStorage.setItem("selectedTheme", "dark")
     }
     const setLightmode = () => {
-        document.querySelector("body").setAttribute('data-theme', 'light')
+        document.body.setAttribute('data-theme', 'light')
         localStorage.setItem("selectedTheme", "light")
     }
 

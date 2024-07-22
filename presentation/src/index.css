@@ -14,17 +14,22 @@
   transition: all 0.3s ease-in-out;
 }
 
+body,header{
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
 .App-Moon {
-   width: 100px;
-   height: 100px;
+   width: 48px;
+   height: 45px;
    /* opacity: .7; */
    background-color: transparent;
    
 }
 
 .App-Sun {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   /* opacity: .7; */
   background-color: transparent;
   
@@ -41,8 +46,8 @@
 
 .dark_mode_label{
   background-color: transparent;
-  width:200px;
-  height:100px;
+  width:100px;
+  height:50px;
   border-radius: 200px;
   cursor: pointer;
   position: relative;
@@ -52,10 +57,10 @@
   position:absolute;
   content: '';
   background-color: black;
-  width: 30px;
-  height:30px;
+  width: 15px;
+  height: 15px;
   border-radius: 50px;
-  margin: 35px;
+  margin: 18px;
   transition: 0.3s;
 }
 
@@ -65,7 +70,7 @@ input:checked + .dark_mode_label{
 }
 
 input:checked + .dark_mode_label::before{
-  transform: translateX(100px);
+  transform: translateX(45px);
   background-color: white;
 }
 
