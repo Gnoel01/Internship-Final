@@ -24,6 +24,10 @@
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: var(--body_color);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: solid 2px grey;
 }
 
 .App-link {
@@ -32,6 +36,13 @@
 
 .names{
   font-size: medium;
+}
+
+.Modal-Flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: wrap;
 }
 
 @keyframes App-logo-spin {
