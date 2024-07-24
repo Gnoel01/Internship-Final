@@ -1,5 +1,5 @@
 :root{
-  --body_background: white;
+  --body_background: rgb(228, 228, 228);
   --body_color: black;
   --link_color: navy;
 }
@@ -14,10 +14,12 @@
   transition: all 0.3s ease-in-out;
 }
 
-body,header{
+body{
   background-color: var(--body_background);
   color: var(--body_color);
 }
+
+
 
 .App-Moon {
    width: 48px;

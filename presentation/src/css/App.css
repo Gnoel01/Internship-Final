@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-logo {
@@ -16,19 +19,22 @@
 }
 
 .App-header {
-  background-color: var(--body_background);
+  background-color: var(--body_back);
+  background-color: #1976D2;
   min-height: 10vh;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: var(--body_color);
-  margin-top: 10px;
+  color: white;
+  margin-top: 0px;
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: solid 2px grey;
   text-align: center;
+  
 }
 
 /* .App-header p {
@@ -58,11 +64,44 @@
   background-color: #1976D2;
   border:2px solid gray;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.699);
   margin: 10px;
   /* min-width: 72vw; */
   text-align: center;
 }
+
+.text-card {
+  width: 75%;
+  margin-top: 50px;
+  color: white;
+  border: 2px solid gray;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.699);
+  background-color: #1976D2;
+  text-align: left;
+}
+
+/* .main-card::before {
+  cursor: pointer;
+  color: white;
+  padding: 0px;
+  background-color: #1976D2;
+  border:2px solid gray;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(158, 156, 156, 0.699);
+  margin: 10px;
+  /* min-width: 72vw; */
+ /* text-align: center;
+} */
+
+/* input:checked + .main-card{
+  box-shadow: 10px 10px 10px rgba(158, 156, 156, 0.75);
+}
+
+input:checked + .main-card::before{
+  transform: translateX(65px);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+} */
 
 .cards{
   cursor: pointer;
@@ -71,17 +110,31 @@
   background-color: #1976D2;
   border:2px solid gray;
   border-radius: 8px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
-  margin: 10px;
+  box-shadow: 10px 10px 10px rgba(15, 15, 15, 0.699);
+  margin: 50px 10px 10px 0px;
   max-width: 35vw;
   text-align: center;
 }
+
+/* .cards-dark{
+  cursor: pointer;
+  color: white;
+  padding: 0px;
+  background-color: #1976D2;
+  border:2px solid gray;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(158, 156, 156, 0.699);
+  margin: 10px;
+  max-width: 35vw;
+  text-align: center;
+} */
 
 .Modal-Flex {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-flow: wrap;
+  width: 75%;
 }
 
 @keyframes App-logo-spin {

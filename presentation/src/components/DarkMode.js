@@ -1,7 +1,7 @@
 import React from "react";
-import Sun from "./Sun.png"
-import Moon from "./Moon.png"
-import "./DarkMode.css";
+import Sun from "../assets/Sun.png"
+import Moon from "../assets/Moon.png"
+import "../css/DarkMode.css";
 
 export default function DarkMode () {
     const setDarkMode = () => {

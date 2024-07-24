@@ -37,9 +37,9 @@ const FooterText = styled.span`
   `;
 
 const Image = styled.img`
-  width: ${props => props.width ? `${props.width}px` : 'auto'};
-  height: ${props => props.height ? `${props.height}px` : 'auto'};
-  padding: ${props => !props.width && !props.height ? '50px' : '0'};
+  width: '85vw';
+  height: '85vh';
+  padding: '50px';
 `;
 
 const Modal = ({ imageUrl, width, height, onClose }) => {
