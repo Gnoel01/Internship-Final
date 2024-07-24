@@ -41,30 +41,26 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p className='names'>
-            Created By: MSgt Hamilton, TSgt Hudson-Greenlee, & (S)gt Noel
-          </p>
+          <div>
+            <p className='project'>
+              Stan/Eval Project Showcase
+            </p>
+            <p className='names'>
+              Created By: MSgt Hamilton, TSgt Hudson-Greenlee, & (S)gt Noel2
+            </p>
+          </div>
           <DarkMode/>
         </header>
           <div className="Modal-Flex">
 
             
             <div>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'White',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  // maxWidth: '65vw',
-                  textAlign: 'center'
-                }}
+              <div className="main-card"
+                // style={{
+                //   minWidth: '72vw',
+                // }}
                 onClick={() => handleOpenModal( { src: exam, width: 1100, height: 500})}>
-                  <img src={exam} alt="Card Image" style={{ width: '955px', height: '350px', borderRadius: '8px 8px 0 0' }} />
+                  <img src={exam} alt="Card Image" style={{ width: '71.25vw', height: '55vh', borderRadius: '8px 8px 0 0' }} />
                 <h2>Stan/Eval App</h2>
                 <p>Quick look at the old vs new</p>
               </div>
@@ -73,38 +69,14 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: darkmode, width: 1100, height: 500})}>
                   <img src={darkmode} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Dark Mode</h2>
                 <p>2Some descriptive text inside the card.2</p>
               </div>
 
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: qSelector, width: 1100, height: 500})}>
                   <img src={qSelector} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Test Generator</h2>
@@ -116,38 +88,14 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: sidebarSS, width: 1100, height: 500})}>
                   <img src={sidebarSS} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Sidebar</h2>
                 <p>3Some descriptive text inside the card.3</p>
               </div>
 
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: sidebar, width: 1100, height: 500})}>
                   <img src={sidebar} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Sidebar Fullscreen</h2>
@@ -159,38 +107,14 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: qIso, width: 1100, height: 500})}>
                   <img src={qIso} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Question Isolation</h2>
                 <p>5Some descriptive text inside the card.5</p>
               </div>
               
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: qIso2, width: 1100, height: 500})}>
                   <img src={qIso2} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Question Iso2</h2>
@@ -202,19 +126,7 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio_2, width: 1100, height: 500})}>
                   <img src={Screenshot_aspect_ratio_2} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Aspect Ratio</h2>
@@ -222,19 +134,7 @@ function App() {
               </div>
 
 
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio, width: 1100, height: 500})}>
                   <img src={Screenshot_aspect_ratio} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Aspect Ratio 2</h2>
@@ -246,38 +146,14 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: oldDPE2, width: 1100, height: 500})}>
                   <img src={oldDPE2} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Old DPE</h2>
                 <p>Some descriptive text inside the card.9</p>
               </div>
 
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: DPE3, width: 1100, height: 500})}>
                   <img src={DPE3} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>New DPE</h2>
@@ -289,38 +165,14 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: practical, width: 1100, height: 500})}>
                   <img src={practical} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Practical</h2>
                 <p>Some descriptive text inside the card.11</p>
               </div>
 
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio, width: 1100, height: 500})}>
                   <img src={Screenshot_aspect_ratio_2} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Additional Accomplishments</h2>
@@ -332,38 +184,14 @@ function App() {
               display: 'flex',
               flexDirection: 'row',
               }}>
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio, width: 1100, height: 500})}>
                   <img src={Screenshot_aspect_ratio_2} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Kiosk/Shelf</h2>
                 <p>Some descriptive text inside the card.12</p>
               </div>
 
-              <div 
-                style={{
-                  cursor: 'pointer',
-                  color: 'blue',
-                  padding: '20px',
-                  backgroundColor: 'white',
-                  border:'1px solid black',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                  margin: '10px',
-                  maxWidth: '35vw',
-                  textAlign: 'center'
-                }}
+              <div className="cards"
                 onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio, width: 1100, height: 500})}>
                   <img src={Screenshot_aspect_ratio_2} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
                 <h2>Final Thoughts</h2>
@@ -371,18 +199,9 @@ function App() {
               </div>
             </div>
 
-            <div 
+            <div className="cards"
               style={{
-                cursor: 'pointer',
-                color: 'blue',
-                padding: '20px',
-                backgroundColor: 'white',
-                border:'1px solid black',
-                borderRadius: '8px',
-                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-                margin: '10px',
                 minWidth: '55vw',
-                textAlign: 'center'
               }}
               onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio, width: 1100, height: 500})}>
                 {/* <img src={Screenshot_aspect_ratio_2} alt="Card Image" style={{ width: '800px', height: '200px', borderRadius: '8px 8px 0 0' }} /> */}

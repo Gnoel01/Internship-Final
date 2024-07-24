@@ -10,7 +10,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     /* animation: App-logo-spin infinite 20s linear; */
-    height: 100px;
+    height: 60px;
     margin-left: 15px;
   }
 }
@@ -28,14 +28,53 @@
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: solid 2px grey;
+  text-align: center;
 }
+
+/* .App-header p {
+  margin: 0;
+} */
 
 .App-link {
   color: var(--link_color);
 }
 
+.project {
+  font-weight: medium;
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .names{
   font-size: medium;
+  margin-top: 0;
+  text-align: center;
+}
+
+.main-card {
+  cursor: pointer;
+  color: white;
+  padding: 0px;
+  background-color: #1976D2;
+  border:2px solid gray;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+  margin: 10px;
+  /* min-width: 72vw; */
+  text-align: center;
+}
+
+.cards{
+  cursor: pointer;
+  color: white;
+  padding: 0px;
+  background-color: #1976D2;
+  border:2px solid gray;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.75);
+  margin: 10px;
+  max-width: 35vw;
+  text-align: center;
 }
 
 .Modal-Flex {
