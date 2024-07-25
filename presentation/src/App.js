@@ -68,6 +68,22 @@ function App() {
               cursor: "default",
               minWidth: '55vw',
             }}
+          >
+            <h1>Key Takeaways</h1>
+            <p>
+              Forged networking pathways across cohort members to aid in future project collaboration.
+              <br/><br/><br/>
+              Opened potential opportunities for Supra Coders to continue to build on their skills while working at their home units.
+              <br/><br/><br/>
+              Maintaining diverse channels of communication with project teams and Supra Coder leadership to facilitate potential projects and applications within home units.
+            </p>
+          </div>
+
+          <div className="cards"
+            style={{
+              cursor: "default",
+              minWidth: '55vw',
+            }}
             // onClick={() => handleOpenModal( { src: Screenshot_aspect_ratio, width: 1100, height: 500})}
             >
               {/* <img src={Screenshot_aspect_ratio_2} alt="Card Image" style={{ width: '800px', height: '200px', borderRadius: '8px 8px 0 0' }} /> */}

@@ -21,7 +21,7 @@ const Card = ({ handleOpenModal, source, header, description }) => {
       className="cards"
       onClick={() => handleOpenModal( { src: source, width: 1100, height: 500})}
     >
-      <img src={source} alt="Card Image" style={{ width: '100%', borderRadius: '8px 8px 0 0' }} />
+      <img src={source} alt="Card Image" style={{ width: '100%', height: '66%', borderRadius: '8px 8px 0 0' }} />
       <h2>{header}</h2>
       <p>{description}</p>
     </div>
