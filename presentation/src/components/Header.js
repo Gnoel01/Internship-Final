@@ -11,7 +11,7 @@ const Header = () => {
           Stan/Eval Project Showcase
         </p>
         <p className='names'>
-          Created By: MSgt Hamilton, TSgt Hudson-Greenlee, & (S)gt Noel2
+          Created By: MSgt Hamilton, TSgt Hudson-Greenlee, & (S)gt Noel
         </p>
       </div>
       <DarkMode/>

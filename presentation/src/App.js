@@ -75,7 +75,7 @@ function App() {
               <br/><br/><br/>
               Opened potential opportunities for Supra Coders to continue to build on their skills while working at their home units.
               <br/><br/><br/>
-              Maintaining diverse channels of communication with project teams and Supra Coder leadership to facilitate potential projects and applications within home units.
+              Maintaining diverse channels of communication with project teams and Supra Coder leadership to facilitate potential projects and applications within home squadrons.
             </p>
           </div>
 
